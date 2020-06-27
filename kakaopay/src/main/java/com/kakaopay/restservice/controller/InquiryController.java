@@ -23,7 +23,7 @@ public class InquiryController {
 			,@RequestParam(value = "x-private-token") String privateToken
 			, Model model) {
     	
-    	//방 인원수 확인
+    	//뿌린 내역 
     	HashMap<String, Object> map = new HashMap<String, Object>();
 
     	String currentDateTime = getCurrentDateTime(); //현재날짜 및 시간을 구함
